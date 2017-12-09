@@ -40,5 +40,5 @@ function createImage(rsp){
 }
 
 
-callDogAPI(url + "breed/list", createDropDown);
+callDogAPI(url + "breeds/list", createDropDown);
 callDogAPI(url + "breed/hound/images", createImage);
